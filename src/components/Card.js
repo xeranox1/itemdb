@@ -22,7 +22,7 @@ const Card = ({id, no, price, amount, img, variation}) => {
             <img alt='pic' src={`http://192.168.0.104:8887/${img}?200x200`} />
             <div className='tc'>
                 <h2>{no}</h2>
-                <p>{'Harga: Rp.' + format(price, 0, 3, ',')}</p>
+                <p>{'Modal: Rp.' + format(price, 0, 3, ',')}</p>
                 <p>{'Stok: '+amount}</p>
                 <div>
                     <h3 className='f4'>Warna:</h3>
